@@ -1,0 +1,20 @@
+{
+  "name": "tailwincss-coffee-shop",
+  "version": "1.0.0",
+  "description": "minhtudev",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss styles.css -o output.css",
+    "watch": "postcss styles.css -o output.css --watch",
+    "start:dev": "live-server public"
+  },
+  "author": "minhtudev",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.4.17",
+    "postcss": "^8.4.33"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
