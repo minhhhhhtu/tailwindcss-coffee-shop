@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.ct-menu-top-header {
+    @apply cursor-pointer py-1 hover:text-gray-800 relative after:absolute  after:bottom-0 after:left-0 
+    after:bg-light-coffee after:h-0.5 after:w-0 hover:after:w-full hover:after:transition-all hover:after:ease-in-out
+    hover:after:duration-700;
+}
+
+.lmt-icon { 
+    @apply w-5 h-5 inline-block;
+}
+
+.lmt-badge-circle {
+    @apply text-sm text-center rounded-full px-1.5;
+}

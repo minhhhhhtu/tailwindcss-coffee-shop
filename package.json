@@ -4,8 +4,7 @@
   "description": "minhtudev",
   "main": "index.js",
   "scripts": {
-    "build": "postcss styles.css -o output.css",
-    "watch": "postcss styles.css -o output.css --watch",
+    "build:css": "tailwindcss -i ./src/input.css -o ./public/output.css --watch",
     "start:dev": "live-server public"
   },
   "author": "minhtudev",
@@ -15,6 +14,7 @@
     "postcss": "^8.4.33"
   },
   "devDependencies": {
-    "live-server": "^1.2.2"
+    "live-server": "^1.2.2",
+    "tailwindcss": "^3.4.1"
   }
 }
