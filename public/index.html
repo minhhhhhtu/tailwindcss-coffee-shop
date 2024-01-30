@@ -11,14 +11,15 @@
 
 <body>
     <div id="root">
-        <div class="content-wrapper font-Karla max-w-screen-2xl text-base mx-auto px-8 bg-slate-400">
-            <header class="p6 mx-auto">
+        <div class="content-wrapper font-Karla max-w-screen-2xl text-base mx-auto px-8">
+            <header class="p-6 mx-auto">
                 <nav class="flex flex-row relative justify-between items-center">
                     <div class="logo basis-2/6 text-center text-xl font-semibold cursor-pointer">
                         CoffeeStyle.
                     </div>
 
-                    <ul id="top-menu" class="basis-3/6 hidden lg:flex lg:items-center lg:justify-end lg:gap-8 uppercase text-sm text-gray-500 font-medium">
+                    <ul id="top-menu"
+                        class="basis-3/6 hidden lg:flex lg:items-center lg:justify-end lg:gap-8 uppercase text-sm text-gray-500 font-medium">
                         <li class="ct-menu-top-header">
                             <a href="#">Home</a>
                         </li>
@@ -39,7 +40,8 @@
                         </li>
                     </ul>
 
-                    <ul class="basis-3/6  lg:basis-1/6 ct-menu-cart-header flex justify-end lg:justify-start items-center ml-16 uppercase text-sm text-gray-500 font-medium">
+                    <ul
+                        class="basis-3/6  lg:basis-1/6 ct-menu-cart-header flex justify-end lg:justify-start items-center ml-16 uppercase text-sm text-gray-500 font-medium">
                         <li class="ct-menu-top-header">
                             <a href="#" class="flex items-center">
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
@@ -56,8 +58,8 @@
                     </ul>
 
                     <div class="basis-1/6 lg:hidden flex items-center cursor-pointer px-3 sm:px-8">
-                        <svg id="toggle-top-menu-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                            stroke="currentColor" class="lmt-icon">
+                        <svg id="toggle-top-menu-icon" xmlns="http://www.w3.org/2000/svg" fill="none"
+                            viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="lmt-icon">
                             <path stroke-linecap="round" stroke-linejoin="round"
                                 d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
                         </svg>
@@ -66,14 +68,327 @@
                 </nav>
             </header> <!--End header-->
 
-            <main>
-                <div class="slider">slider</div>
-                <div class="story">story</div>
-                <div class="feature-mugs">feature mugs</div>
-                <div class="more-products">more products</div>
-                <div class="coffee-magazine">coffee-magazine</div>
-                <div class="life-story">life-story</div>
-                <div class="subscribe-us">subscribe</div>
+
+            <div
+                class="slider h-[530px] bg-[url(./img/slider/nathan-dumlao-KixfBEdyp64-unsplash.jpg)] bg-cover bg-no-repeat bg-center">
+                <div class="w-full h-full flex justify-center items-center bg-gray-900 bg-opacity-40">
+                    <div class="mx-16 text-white text-center">
+                        <div class="uppercase mb-6 text-sm font-medium text-gray-300">Best place to buy coffee</div>
+                        <div class="mb-6 text-5xl">Coffee Mugs</div>
+                        <div class="mb-8 text-m font-medium">The most versatile furniture system ever created.
+                            Designed to fit your life,
+                            made to move and grow.</div>
+                        <div class="flex justify-center">
+                            <div
+                                class="lmt-button mb-4 w-max bg-white text-gray-900">
+                                Explore our products
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="story">
+                <div class="w-full h-full flex justify-center items-center">
+                    <div class="px-4 sm:px-16 md:px-32 lg:px-64 xl:px-96 py-32 text-center">
+                        <div class="mb-6 text-2xl leading-10">Even the all-powerful Pointing has no control about
+                            the blind texts.</div>
+                        <div class="text-gray-500 mb-6 leading-7">It is a paradisematic country, in which roasted
+                            parts of sentences fly into
+                            your mouth. <br> Even the all-powerful Pointing has no control about the blind texts it
+                            is an
+                            almost unorthographic life One day however a small line of blind text by the name of
+                            Lorem Ipsum decided to leave for the far World of Grammar.</div>
+                        <div class="">
+                            <a href="#"
+                                class="text-coffee-400 hover:text-coffee-600 relative after:absolute  after:-bottom-2 after:left-0 
+                                after:bg-coffee-50 after:w-full after:mt-5 after:h-0.5
+                                hover:after:bg-coffee-400 hover:after:w-full hover:after:transition-all hover:after:ease-in-out hover:after:duration-700 ">
+                                Read the full Story
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!--FEATURE MUGS-->
+            <div class="lmt-subheadline flex">
+                <div class="lmt-subheadline-deco-line"></div>
+                <div class="lmt-subheadline-label">Feature Mugs</div>
+                <div class="lmt-subheadline-deco-line"></div>
+            </div>
+
+
+            <div class="feature-mugs w-[95%] lg:w-[65%] mx-auto mb-24">
+                <!--Grid-cols-2 là 2 sản phẩm trên cột song song.
+                  --Gap-4 để ngăn cách giữa 2 phần tử -->
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-4">
+                    <div class="lmt-product-card">
+                        <div
+                            class="h-[400px] sm:h-[540px] bg-[url(./img/featured_product/da2b079bb66cf706850cabba2679ec76.jpg)] bg-cover bg-no-repeat bg-top">
+                            <a href="#" alt="minhtudev">
+                                <div
+                                    class="w-full h-full hover:bg-gray-900 hover:bg-opacity-10 hover:transition-all hover:ease-in-out hover:duration-400 relative group">
+                                    <div
+                                        class="absolute w-[100px] bg-white py-2 px-4 text-coffee-400 text-[18px] text-center top-3 right-3 font-semibold ">
+                                        On Sale.</div>
+                                    <div class="lmt-button absolute w-11/12 bg-white text-gray-900 bottom-4 left-1/2 -translate-x-1/2 hidden group-hover:block group-hover:animate-fadeIn">
+                                        Product mugs
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="text-center mt-8">
+                            <a href="#" alt="price-minhtudev">
+                                <div class="text-xl mb-2 hover:text-coffee-400 font-[400px] leading-5 tracking-wide">The
+                                    man smoke cigarette</div>
+                            </a>
+
+                            <div>
+                                <span class="text-lg text-coffee-400 tracking-wider">$ 59.50 USD</span>
+                                <span class=" ml-3 text-sm text-gray-500 line-through">$ 69.00 USD</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="lmt-product-card">
+                        <div
+                            class="h-[400px] sm:h-[540px] bg-[url(./img/featured_product/e86d801b40a65ed77eb84a3e1e9e0560.jpg)] bg-cover bg-no-repeat bg-center">
+                            <a href="#" alt="minhtudev">
+                                <div
+                                    class="w-full h-full hover:bg-gray-900 hover:bg-opacity-10 hover:transition-all hover:ease-in-out hover:duration-400 relative group">
+                                    <div
+                                        class="absolute w-[100px] bg-white py-2 px-4 text-coffee-400 text-[18px] text-center top-3 right-3 font-semibold hidden">
+                                        On Sale.</div>
+                                    <div class="lmt-button absolute w-11/12 bg-white text-gray-900 bottom-4 left-1/2 -translate-x-1/2 hidden group-hover:block group-hover:animate-fadeIn">Product Mugs</div>
+                                </div>
+                            </a>
+                        </div>
+
+
+                        <div class="text-center mt-8">
+                            <a href="#" alt="price-minhtudev">
+                                <div class="text-xl mb-2 hover:text-coffee-400 font-[400px] leading-5 tracking-wide">
+                                    The sadness of man
+                                </div>
+                            </a>
+
+                            <div>
+                                <span class="text-lg text-coffee-400 tracking-wider">$ 60.00 USD</span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            <!--END FEATURE MUGS-->
+
+
+
+            <!--More Products-->
+            <div class="lmt-subheadline flex">
+                <div class="lmt-subheadline-deco-line"></div>
+                <div class="lmt-subheadline-label">More Products</div>
+                <div class="lmt-subheadline-deco-line"></div>
+            </div>
+
+
+            <div class="more-products w-[95%] lg:w-[65%] mx-auto mb-16">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-4">
+                    <div class="lmt-product-card">
+                        <div
+                            class="h-[380px] bg-[url(./img/more_product/milktea-egg.jpg)] bg-cover bg-no-repeat bg-center">
+                            <a href="#" alt="minhtudev">
+                                <div
+                                    class="w-full h-full hover:bg-gray-900 hover:bg-opacity-10 hover:transition-all hover:ease-in-out hover:duration-400 relative group">
+                                    <div
+                                        class="absolute w-[100px] bg-white py-2 px-4 text-coffee-400 text-[18px] text-center top-3 right-3 font-semibold ">
+                                        On Sale.</div>
+                                    <div class="lmt-button absolute w-11/12 bg-white text-gray-900 bottom-4 left-1/2 -translate-x-1/2 hidden group-hover:block group-hover:animate-fadeIn">
+                                        Product mugs
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="text-center my-8">
+                            <a href="#" alt="price-minhtudev">
+                                <div class="text-xl mb-2 hover:text-coffee-400 font-[400px] leading-5 tracking-wide">
+                                    Milk Tea Egg Cream</div>
+                            </a>
+
+                            <div>
+                                <span class="text-lg text-coffee-400 tracking-wider">$ 30.00 VND</span>
+                                <span class=" ml-3 text-sm text-gray-500 line-through">$ 35.00 VND</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="lmt-product-card">
+                        <div
+                            class="h-[380px] bg-[url(./img/more_product/mango-milkfoam.jpg)] bg-cover bg-no-repeat bg-center">
+                            <a href="#" alt="minhtudev">
+                                <div
+                                    class="w-full h-full hover:bg-gray-900 hover:bg-opacity-10 hover:transition-all hover:ease-in-out hover:duration-400 relative group">
+                                    <div class="lmt-button absolute w-11/12 bg-white text-gray-900 bottom-4 left-1/2 -translate-x-1/2 hidden group-hover:block group-hover:animate-fadeIn">
+                                        Product mugs
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="text-center my-8">
+                            <a href="#" alt="price-minhtudev">
+                                <div class="text-xl mb-2 hover:text-coffee-400 font-[400px] leading-5 tracking-wide">
+                                    Mango Tea With Milk Foam</div>
+                            </a>
+
+                            <div>
+                                <span class="text-lg text-coffee-400 tracking-wider">$ 35.00 VND</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="lmt-product-card">
+                        <div
+                            class="h-[380px] bg-[url(./img/more_product/lychee-tea.jpg)] bg-cover bg-no-repeat bg-center">
+                            <a href="#" alt="minhtudev">
+                                <div
+                                    class="w-full h-full hover:bg-gray-900 hover:bg-opacity-10 hover:transition-all hover:ease-in-out hover:duration-400 relative group">
+                                    <div
+                                        class="absolute w-[100px] bg-white py-2 px-4 text-coffee-400 text-[18px] text-center top-3 right-3 font-semibold ">
+                                        On Sale.</div>
+                                    <div class="lmt-button absolute w-11/12 bg-white text-gray-900 bottom-4 left-1/2 -translate-x-1/2 hidden group-hover:block group-hover:animate-fadeIn">
+                                        Product mugs
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="text-center my-8">
+                            <a href="#" alt="price-minhtudev">
+                                <div class="text-xl mb-2 hover:text-coffee-400 font-[400px] leading-5 tracking-wide">
+                                    Lychee Tea</div>
+                            </a>
+
+                            <div>
+                                <span class="text-lg text-coffee-400 tracking-wider">$ 25.00 VND</span>
+                                <span class=" ml-3 text-sm text-gray-500 line-through">$ 30.00 VND</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="lmt-product-card">
+                        <div
+                            class="h-[380px] bg-[url(./img/more_product/fansipan.jpg)] bg-cover bg-no-repeat bg-center">
+                            <a href="#" alt="minhtudev">
+                                <div
+                                    class="w-full h-full hover:bg-gray-900 hover:bg-opacity-10 hover:transition-all hover:ease-in-out hover:duration-400 relative group">
+                                    <div class="lmt-button absolute w-11/12 bg-white text-gray-900 bottom-4 left-1/2 -translate-x-1/2 hidden group-hover:block group-hover:animate-fadeIn">
+                                        Product mugs
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="text-center my-8">
+                            <a href="#" alt="price-minhtudev">
+                                <div class="text-xl mb-2 hover:text-coffee-400 font-[400px] leading-5 tracking-wide">
+                                    Lemon breaking ice</div>
+                            </a>
+
+                            <div>
+                                <span class="text-lg text-coffee-400 tracking-wider">$ 30.00 VND</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="lmt-product-card">
+                        <div
+                            class="h-[380px] bg-[url(./img/more_product/blueberry-yogurt.jpg)] bg-cover bg-no-repeat bg-center">
+                            <a href="#" alt="minhtudev">
+                                <div
+                                    class="w-full h-full hover:bg-gray-900 hover:bg-opacity-10 hover:transition-all hover:ease-in-out hover:duration-400 relative group">
+                                    <div
+                                        class="absolute w-[100px] bg-white py-2 px-4 text-coffee-400 text-[18px] text-center top-3 right-3 font-semibold ">
+                                        On Sale.</div>
+                                    <div class="lmt-button absolute w-11/12 bg-white text-gray-900 bottom-4 left-1/2 -translate-x-1/2 hidden group-hover:block group-hover:animate-fadeIn">
+                                        Product mugs
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="text-center my-8">
+                            <a href="#" alt="price-minhtudev">
+                                <div class="text-xl mb-2 hover:text-coffee-400 font-[400px] leading-5 tracking-wide">
+                                    Blueberry Yoghurt</div>
+                            </a>
+
+                            <div>
+                                <span class="text-lg text-coffee-400 tracking-wider">$ 35.00 VND</span>
+                                <span class=" ml-3 text-sm text-gray-500 line-through">$ 40.00 VND</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="lmt-product-card">
+                        <div
+                            class="h-[380px] bg-[url(./img/more_product/black-coffee.jpg)] bg-cover bg-no-repeat bg-center">
+                            <a href="#" alt="minhtudev">
+                                <div
+                                    class="w-full h-full hover:bg-gray-900 hover:bg-opacity-10 hover:transition-all hover:ease-in-out hover:duration-400 relative group">
+                                    <div
+                                        class="absolute w-[100px] bg-white py-2 px-4 text-coffee-400 text-[18px] text-center top-3 right-3 font-semibold ">
+                                        On Sale.</div>
+                                    <div class="lmt-button absolute w-11/12 bg-white text-gray-900 bottom-4 left-1/2 -translate-x-1/2 hidden group-hover:block group-hover:animate-fadeIn">
+                                        Product mugs
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="text-center my-8">
+                            <a href="#" alt="price-minhtudev">
+                                <div class="text-xl mb-2 hover:text-coffee-400 font-[400px] leading-5 tracking-wide">The
+                                    Black Coffee</div>
+                            </a>
+
+                            <div>
+                                <span class="text-lg text-coffee-400 tracking-wider">$ 25.00 VND</span>
+                                <span class=" ml-3 text-sm text-gray-500 line-through">$ 29.00 VND</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!--Buy 2 mugs and get a coffee magazine free-->
+            <div class="lmt-subheadline flex">
+                <div class="lmt-subheadline-deco-line"></div>
+                <div class="lmt-subheadline-label">Buy 2 mugs and get a coffee magazine free</div>
+                <div class="lmt-subheadline-deco-line"></div>
+            </div>
+
+
+            <div class="coffee-magazine">coffee-magazine</div>
+
+            <!--Behind the mugs, lifestyle stories-->
+            <div class="lmt-subheadline flex">
+                <div class="lmt-subheadline-deco-line"></div>
+                <div class="lmt-subheadline-label">Behind the mugs, lifestyle stories</div>
+                <div class="lmt-subheadline-deco-line"></div>
+            </div>
+
+
+            <div class="life-story">life-story</div>
+
+
+            <div class="subscribe-us">subscribe</div>
             </main> <!--End main-->
 
             <footer>
@@ -83,4 +398,5 @@
     </div> <!--End root-->
 </body>
 <script src="./main.js"></script>
+
 </html>
