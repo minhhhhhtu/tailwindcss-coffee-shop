@@ -562,16 +562,16 @@ video {
   left: 50%;
 }
 
+.left-\[calc\(-50vw\+50\%\)\]{
+  left: calc(-50vw + 50%);
+}
+
 .right-3{
   right: 0.75rem;
 }
 
 .top-3{
   top: 0.75rem;
-}
-
-.left-\[calc\(-50vw\+50\%\)\]{
-  left: calc(-50vw + 50%);
 }
 
 .mx-16{
@@ -589,9 +589,24 @@ video {
   margin-right: auto;
 }
 
+.my-6{
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
 .my-8{
   margin-top: 2rem;
   margin-bottom: 2rem;
+}
+
+.my-4{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.my-2{
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .mb-16{
@@ -666,6 +681,10 @@ video {
   height: 400px;
 }
 
+.h-\[420px\]{
+  height: 420px;
+}
+
 .h-\[530px\]{
   height: 530px;
 }
@@ -674,12 +693,8 @@ video {
   height: 100%;
 }
 
-.h-\[340px\]{
-  height: 340px;
-}
-
-.h-\[1000px\]{
-  height: 1000px;
+.h-\[300px\]{
+  height: 300px;
 }
 
 .w-11\/12{
@@ -688,6 +703,10 @@ video {
 
 .w-\[100px\]{
   width: 100px;
+}
+
+.w-\[100vw\]{
+  width: 100vw;
 }
 
 .w-\[95\%\]{
@@ -703,8 +722,16 @@ video {
   width: max-content;
 }
 
-.w-\[100vw\]{
-  width: 100vw;
+.w-\[98\%\]{
+  width: 98%;
+}
+
+.w-\[300\]{
+  width: 300;
+}
+
+.w-\[350\]{
+  width: 350;
 }
 
 .max-w-screen-2xl{
@@ -856,12 +883,24 @@ video {
   background-image: url(./img/more_product/milktea-egg.jpg);
 }
 
+.bg-\[url\(\.\/img\/parallex\/412031404_308080108873490_5069270412466180196_n\.jpg\)\]{
+  background-image: url(./img/parallex/412031404_308080108873490_5069270412466180196_n.jpg);
+}
+
 .bg-\[url\(\.\/img\/slider\/nathan-dumlao-KixfBEdyp64-unsplash\.jpg\)\]{
   background-image: url(./img/slider/nathan-dumlao-KixfBEdyp64-unsplash.jpg);
 }
 
-.bg-\[url\(\.\/img\/parallex\/412031404_308080108873490_5069270412466180196_n\.jpg\)\]{
-  background-image: url(./img/parallex/412031404_308080108873490_5069270412466180196_n.jpg);
+.bg-\[url\(\.\/img\/story\/nghi-le-hung-vuong\.jpg\)\]{
+  background-image: url(./img/story/nghi-le-hung-vuong.jpg);
+}
+
+.bg-\[url\(\.\/img\/story\/recruiment\.jpg\)\]{
+  background-image: url(./img/story/recruiment.jpg);
+}
+
+.bg-\[url\(\.\/img\/story\/sales\.jpg\)\]{
+  background-image: url(./img/story/sales.jpg);
 }
 
 .bg-cover{
@@ -878,6 +917,14 @@ video {
 
 .bg-top{
   background-position: top;
+}
+
+.bg-left{
+  background-position: left;
+}
+
+.bg-right{
+  background-position: right;
 }
 
 .bg-no-repeat{
@@ -915,6 +962,10 @@ video {
 
 .pl-8{
   padding-left: 2rem;
+}
+
+.text-left{
+  text-align: left;
 }
 
 .text-center{
@@ -1019,6 +1070,11 @@ video {
   color: rgb(209 213 219 / var(--tw-text-opacity));
 }
 
+.text-gray-400{
+  --tw-text-opacity: 1;
+  color: rgb(156 163 175 / var(--tw-text-opacity));
+}
+
 .text-gray-500{
   --tw-text-opacity: 1;
   color: rgb(107 114 128 / var(--tw-text-opacity));
@@ -1027,6 +1083,11 @@ video {
 .text-gray-900{
   --tw-text-opacity: 1;
   color: rgb(17 24 39 / var(--tw-text-opacity));
+}
+
+.text-slate-400{
+  --tw-text-opacity: 1;
+  color: rgb(148 163 184 / var(--tw-text-opacity));
 }
 
 .text-white{
@@ -1169,7 +1230,7 @@ video {
 }
 
 .lmt-button:hover{
-  --tw-bg-opacity: 0.9;
+  --tw-bg-opacity: 0.95;
 }
 
 .after\:absolute::after{
@@ -1334,6 +1395,10 @@ video {
 
   .md\:h-\[130px\]{
     height: 130px;
+  }
+
+  .md\:w-\[65\%\]{
+    width: 65%;
   }
 
   .md\:grid-cols-2{
