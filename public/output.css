@@ -585,6 +585,15 @@ video {
   margin-right: auto;
 }
 
+.my-8{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.mb-16{
+  margin-bottom: 4rem;
+}
+
 .mb-2{
   margin-bottom: 0.5rem;
 }
@@ -629,20 +638,20 @@ video {
   display: none;
 }
 
-.h-\[530px\]{
-  height: 530px;
-}
-
-.h-\[540px\]{
-  height: 540px;
-}
-
-.h-full{
-  height: 100%;
+.h-\[380px\]{
+  height: 380px;
 }
 
 .h-\[400px\]{
   height: 400px;
+}
+
+.h-\[530px\]{
+  height: 530px;
+}
+
+.h-full{
+  height: 100%;
 }
 
 .w-11\/12{
@@ -653,8 +662,8 @@ video {
   width: 100px;
 }
 
-.w-\[65\%\]{
-  width: 65%;
+.w-\[95\%\]{
+  width: 95%;
 }
 
 .w-full{
@@ -664,10 +673,6 @@ video {
 .w-max{
   width: -moz-max-content;
   width: max-content;
-}
-
-.w-\[95\%\]{
-  width: 95%;
 }
 
 .max-w-screen-2xl{
@@ -699,10 +704,6 @@ video {
   cursor: pointer;
 }
 
-.grid-cols-2{
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-
 .grid-cols-1{
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
@@ -725,10 +726,6 @@ video {
 
 .justify-between{
   justify-content: space-between;
-}
-
-.gap-4{
-  gap: 1rem;
 }
 
 .gap-8{
@@ -754,16 +751,68 @@ video {
   --tw-bg-opacity: 0.4;
 }
 
-.bg-\[url\(\.\/img\/featured_product\/da2b079bb66cf706850cabba2679ec76\.jpg\)\]{
-  background-image: url(./img/featured_product/da2b079bb66cf706850cabba2679ec76.jpg);
-}
-
 .bg-\[url\(\.\/img\/featured_product\/e86d801b40a65ed77eb84a3e1e9e0560\.jpg\)\]{
   background-image: url(./img/featured_product/e86d801b40a65ed77eb84a3e1e9e0560.jpg);
 }
 
 .bg-\[url\(\.\/img\/slider\/nathan-dumlao-KixfBEdyp64-unsplash\.jpg\)\]{
   background-image: url(./img/slider/nathan-dumlao-KixfBEdyp64-unsplash.jpg);
+}
+
+.bg-\[url\(tailwincss-coffee-shop\/public\/img\/featured_product\/da2b079bb66cf706850cabba2679ec76\.jpg\)\]{
+  background-image: url(tailwincss-coffee-shop/public/img/featured_product/da2b079bb66cf706850cabba2679ec76.jpg);
+}
+
+.bg-\[url\(tailwincss-coffee-shop\/public\/img\/more_product\/black-coffee\.jpg\)\]{
+  background-image: url(tailwincss-coffee-shop/public/img/more_product/black-coffee.jpg);
+}
+
+.bg-\[url\(tailwincss-coffee-shop\/public\/img\/more_product\/blueberry-yogurt\.jpg\)\]{
+  background-image: url(tailwincss-coffee-shop/public/img/more_product/blueberry-yogurt.jpg);
+}
+
+.bg-\[url\(tailwincss-coffee-shop\/public\/img\/more_product\/fansipan\.jpg\)\]{
+  background-image: url(tailwincss-coffee-shop/public/img/more_product/fansipan.jpg);
+}
+
+.bg-\[url\(tailwincss-coffee-shop\/public\/img\/more_product\/lychee-tea\.jpg\)\]{
+  background-image: url(tailwincss-coffee-shop/public/img/more_product/lychee-tea.jpg);
+}
+
+.bg-\[url\(tailwincss-coffee-shop\/public\/img\/more_product\/mango-milkfoam\.jpg\)\]{
+  background-image: url(tailwincss-coffee-shop/public/img/more_product/mango-milkfoam.jpg);
+}
+
+.bg-\[url\(tailwincss-coffee-shop\/public\/img\/more_product\/milktea-egg\.jpg\)\]{
+  background-image: url(tailwincss-coffee-shop/public/img/more_product/milktea-egg.jpg);
+}
+
+.bg-\[url\(\.\/img\/featured_product\/da2b079bb66cf706850cabba2679ec76\.jpg\)\]{
+  background-image: url(./img/featured_product/da2b079bb66cf706850cabba2679ec76.jpg);
+}
+
+.bg-\[url\(\.\/img\/more_product\/black-coffee\.jpg\)\]{
+  background-image: url(./img/more_product/black-coffee.jpg);
+}
+
+.bg-\[url\(\.\/img\/more_product\/blueberry-yogurt\.jpg\)\]{
+  background-image: url(./img/more_product/blueberry-yogurt.jpg);
+}
+
+.bg-\[url\(\.\/img\/more_product\/fansipan\.jpg\)\]{
+  background-image: url(./img/more_product/fansipan.jpg);
+}
+
+.bg-\[url\(\.\/img\/more_product\/lychee-tea\.jpg\)\]{
+  background-image: url(./img/more_product/lychee-tea.jpg);
+}
+
+.bg-\[url\(\.\/img\/more_product\/mango-milkfoam\.jpg\)\]{
+  background-image: url(./img/more_product/mango-milkfoam.jpg);
+}
+
+.bg-\[url\(\.\/img\/more_product\/milktea-egg\.jpg\)\]{
+  background-image: url(./img/more_product/milktea-egg.jpg);
 }
 
 .bg-cover{
@@ -776,6 +825,10 @@ video {
 
 .bg-top{
   background-position: top;
+}
+
+.bg-left{
+  background-position: left;
 }
 
 .bg-no-repeat{
@@ -809,11 +862,6 @@ video {
 .py-32{
   padding-top: 8rem;
   padding-bottom: 8rem;
-}
-
-.py-4{
-  padding-top: 1rem;
-  padding-bottom: 1rem;
 }
 
 .text-center{
@@ -1107,10 +1155,6 @@ video {
   --tw-bg-opacity: 0.1;
 }
 
-.hover\:bg-opacity-90:hover{
-  --tw-bg-opacity: 0.9;
-}
-
 .hover\:text-coffee-400:hover{
   --tw-text-opacity: 1;
   color: rgb(162 95 75 / var(--tw-text-opacity));
@@ -1194,6 +1238,14 @@ video {
 }
 
 @media (min-width: 768px){
+  .md\:grid-cols-2{
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .md\:gap-4{
+    gap: 1rem;
+  }
+
   .md\:px-32{
     padding-left: 8rem;
     padding-right: 8rem;
@@ -1221,6 +1273,10 @@ video {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .lg\:grid-cols-3{
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
   .lg\:items-center{
     align-items: center;
   }
@@ -1233,12 +1289,12 @@ video {
     justify-content: flex-end;
   }
 
-  .lg\:gap-8{
-    gap: 2rem;
-  }
-
   .lg\:gap-4{
     gap: 1rem;
+  }
+
+  .lg\:gap-8{
+    gap: 2rem;
   }
 
   .lg\:px-64{
