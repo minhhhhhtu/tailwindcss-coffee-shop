@@ -40,5 +40,5 @@
     @apply  uppercase mx-4 tracking-widest text-gray-500 font-medium text-xs text-center;
 }
 .lmt-button {
-    @apply text-center uppercase tracking-wider py-4 px-8 text-sm font-semibold cursor-pointer hover:bg-opacity-95
+    @apply text-center uppercase tracking-wider py-4 px-8 text-sm font-semibold cursor-pointer hover:bg-opacity-95;
 }
