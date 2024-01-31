@@ -1,44 +1,51 @@
-@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 .ct-menu-top-header-expanded {
-    @apply absolute top-10 z-50 bg-white w-full text-center rounded-l animate-slideDown;
+  @apply absolute top-10 z-50 bg-white w-full text-center rounded-l animate-slideDown;
 }
 
 .ct-menu-top-header {
-    @apply cursor-pointer py-1 hover:text-gray-800 relative after:lg:absolute  after:lg:bottom-0 after:lg:left-0 
+  @apply cursor-pointer py-1 hover:text-gray-800 relative after:lg:absolute  after:lg:bottom-0 after:lg:left-0 
     after:lg:bg-coffee-200 after:lg:h-0.5 after:lg:w-0 hover:after:lg:w-full hover:after:lg:transition-all hover:after:lg:ease-in-out
     hover:after:lg:duration-700;
 }
 
 .ct-menu-top-header-active {
-    @apply text-gray-800;
+  @apply text-gray-900;
 }
 
 .ct-menu-cart-header {
-    @apply cursor-pointer py-1 hover:text-gray-800;
+  @apply cursor-pointer py-1 hover:text-gray-800;
 }
 
-.lmt-icon { 
-    @apply w-5 h-5 inline-block;
+.lmt-icon {
+  @apply w-5 h-5 inline-block;
 }
 
 .lmt-badge-circle {
-    @apply text-sm text-center rounded-full px-1.5;
+  @apply text-sm text-center rounded-full px-1.5;
 }
 
-.lmt-subheadline{
-    @apply  justify-center items-center mb-24;
+.lmt-subheadline {
+  @apply justify-center items-center mb-24;
 }
 
-.lmt-subheadline-deco-line{
-    @apply  w-8 h-px bg-gray-200;
+.lmt-subheadline-deco-line {
+  @apply w-8 h-px bg-gray-200;
 }
-.lmt-subheadline-label{
-    @apply  uppercase mx-4 tracking-widest text-gray-500 font-medium text-xs text-center;
+.lmt-subheadline-label {
+  @apply uppercase mx-4 tracking-widest text-gray-500 font-medium text-xs text-center;
 }
 .lmt-button {
-    @apply text-center uppercase tracking-wider py-4 px-8 text-sm font-semibold cursor-pointer hover:bg-opacity-95;
+  @apply text-center uppercase tracking-wider py-4 px-8 text-sm font-semibold cursor-pointer hover:bg-opacity-95;
+}
+.lmt-breadcumbers {
+  @apply text-center uppercase py-3 px-6 text-sm font-medium cursor-pointer hover:bg-opacity-95
+  bg-white text-coffee-50 border-[1px] border-coffee-50 hover:border-coffee-600 hover:text-coffee-400 duration-300;
+}
+.lmt-breadcumbers-active {
+    @apply border-coffee-600 text-coffee-400
 }
