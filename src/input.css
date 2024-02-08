@@ -47,5 +47,21 @@
   bg-white text-coffee-50 border-[1px] border-coffee-50 hover:border-coffee-600 hover:text-coffee-400 duration-300;
 }
 .lmt-breadcumbers-active {
-    @apply border-coffee-600 text-coffee-400
+    @apply border-coffee-600 text-coffee-400;
+}
+
+.arrow-slider {
+  @apply p-3 opacity-50 inline-block overflow-hidden w-[80px] hover:scale-125 hover:opacity-100 transition-all duration-300 ease-in-out;
+}
+
+.rounded-slider {
+  @apply  cursor-pointer w-2 h-2 bg-slate-400 mx-2 p-1 rounded-full transition-all duration-300 ease-out;
+}
+
+.rounded-active {
+  @apply bg-gray-900;
+}
+
+.slider-content {
+  @apply transition-transform duration-500 ease-in-out;
 }

@@ -614,6 +614,10 @@ video {
   margin-bottom: 2rem;
 }
 
+.mb-10{
+  margin-bottom: 2.5rem;
+}
+
 .mb-16{
   margin-bottom: 4rem;
 }
@@ -664,10 +668,6 @@ video {
 
 .mt-\[100px\]{
   margin-top: 100px;
-}
-
-.mb-10{
-  margin-bottom: 2.5rem;
 }
 
 .block{
@@ -1374,6 +1374,45 @@ video {
   color: rgb(162 95 75 / var(--tw-text-opacity));
 }
 
+.arrow-slider{
+  display: inline-block;
+  width: 80px;
+  overflow: hidden;
+  padding: 0.75rem;
+  opacity: 0.5;
+  transition-property: all;
+  transition-duration: 300ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.arrow-slider:hover{
+  --tw-scale-x: 1.25;
+  --tw-scale-y: 1.25;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  opacity: 1;
+}
+
+.rounded-slider{
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  height: 0.5rem;
+  width: 0.5rem;
+  cursor: pointer;
+  border-radius: 9999px;
+  --tw-bg-opacity: 1;
+  background-color: rgb(148 163 184 / var(--tw-bg-opacity));
+  padding: 0.25rem;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms;
+  transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+}
+
+.rounded-active{
+  --tw-bg-opacity: 1;
+  background-color: rgb(17 24 39 / var(--tw-bg-opacity));
+}
+
 .placeholder\:text-xs::-moz-placeholder{
   font-size: 0.75rem;
   line-height: 1rem;
@@ -1642,6 +1681,10 @@ video {
 
   .lg\:w-\[65\%\]{
     width: 65%;
+  }
+
+  .lg\:w-\[73\%\]{
+    width: 73%;
   }
 
   .lg\:basis-1\/6{
